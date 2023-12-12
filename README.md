@@ -37,11 +37,11 @@ To get started with this project, follow these steps:
    python -m venv venv
 
 4. Activate the virtual environment:
-   * On Windows:
+* On Windows:
    ```bash
    venv\Scripts\activate
 
-   * On macOS and Linux:
+* On macOS and Linux:
    ```bash
    source venv/bin/activate
 
