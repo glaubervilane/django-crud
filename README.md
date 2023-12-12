@@ -45,22 +45,22 @@ To get started with this project, follow these steps:
    ```bash
    source venv/bin/activate
 
-6. Install project dependencies:
+5. Install project dependencies:
 
    ```bash
    pip install -r requirements.txt
 
-7. Apply database migrations:
+5. Apply database migrations:
 
    ```bash
    python manage.py migrate
 
-8. Run the development server:
+7. Run the development server:
 
    ```bash
    python manage.py runserver
 
-9. Open your web browser and go to http://127.0.0.1:8000/ to access the application.
+8. Open your web browser and go to http://127.0.0.1:8000/ to access the application.
 
 ## Contributing
 If you'd like to contribute to this project I appreciate it. Your contributions are highly welcome!
