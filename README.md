@@ -50,7 +50,7 @@ To get started with this project, follow these steps:
    ```bash
    pip install -r requirements.txt
 
-5. Apply database migrations:
+6. Apply database migrations:
 
    ```bash
    python manage.py migrate
