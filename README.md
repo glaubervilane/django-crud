@@ -36,22 +36,31 @@ To get started with this project, follow these steps:
    ```bash
    python -m venv venv
 
-4. Install project dependencies:
+4. Activate the virtual environment:
+   * On Windows:
+   ```bash
+   venv\Scripts\activate
+
+   * On macOS and Linux:
+   ```bash
+   source venv/bin/activate
+
+6. Install project dependencies:
 
    ```bash
    pip install -r requirements.txt
 
-5. Apply database migrations:
+7. Apply database migrations:
 
    ```bash
    python manage.py migrate
 
-6. Run the development server:
+8. Run the development server:
 
    ```bash
    python manage.py runserver
 
-7. Open your web browser and go to http://127.0.0.1:8000/ to access the application.
+9. Open your web browser and go to http://127.0.0.1:8000/ to access the application.
 
 ## Contributing
 If you'd like to contribute to this project I appreciate it. Your contributions are highly welcome!
