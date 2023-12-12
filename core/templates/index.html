@@ -10,8 +10,14 @@
 
     <ul>
       {% for person in people %}
-        <li> {{ person.id }} - {{ person.name }}</li>
+        <li> {{ person.id }} - {{ person.name }} <a href="{% url 'edit' person.id %}">Edit</a></li>
       {% endfor %}
     </ul>
+
+    <form action="{% url 'save' %}" method="POST">
+      {% csrf_token %}
+      <input type="text" name = "name">
+      <button type="submit">Save</button>
+    </form>
   </body>
 </html>
