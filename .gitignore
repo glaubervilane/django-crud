@@ -1,0 +1,57 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Ignore the Django migration folder
+*/migrations/
+
+# Ignore database files
+*.sqlite3
+*.db
+
+# Ignore log files
+*.log
+
+# Ignore static files directory
+static/
+
+# Ignore media files directory
+media/
+
+# Ignore secret settings file
+*.secret
+
+# Ignore local configuration files
+*.local
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore coverage reports
+htmlcov/
+
+# Ignore pycache directories
+__pycache__/
+
+# Ignore pipenv files
+Pipfile
+Pipfile.lock
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore test database
+test_db.sqlite3
+
+# Ignore environment file
+.env
